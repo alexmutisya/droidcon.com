@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sealteam.droidconcom.home"
+        android:label="home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_bepatner"
+        android:name="com.sealteam.droidconcom.bepatner"
+        android:label="bepatners"
+        tools:layout="@layout/fragment_bepatner" />
+    <fragment
+        android:id="@+id/nav_venue"
+        android:name="com.sealteam.droidconcom.venue"
+        android:label="venue"
+        tools:layout="@layout/fragment_venue" />
+    <fragment
+        android:id="@+id/nav_programmecommitee"
+        android:name="com.sealteam.droidconcom.programmecommitee"
+        android:label="programmecommitee"
+        tools:layout="@layout/fragment_programmecommitee" />
+    <fragment
+        android:id="@+id/nav_tickets"
+        android:name="com.sealteam.droidconcom.tickets"
+        android:label="tickets"
+        tools:layout="@layout/fragment_tickets" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.sealteam.droidconcom.aboutus"
+        android:label="aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bepatner"
+            android:icon="@drawable/bepartners"
+            android:title="bepartners" />
+        <item
+            android:id="@+id/nav_venue"
+            android:icon="@drawable/venue"
+            android:title="venue" />
+        <item
+            android:id="@+id/nav_programmecommitee"
+            android:icon="@drawable/baseline_group_24"
+            android:title="programmecommitee" />
+        <item
+            android:id="@+id/nav_tickets"
+            android:icon="@drawable/baseline_airplane_ticket_24"
+            android:title="tickets" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/baseline_card_membership_24"
+            android:title="aboutus" />
+
+
+
+    </group>
+</menu>
